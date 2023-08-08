@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "966276468722",
+    "project_id": "prepquiz-aaa11",
+    "storage_bucket": "prepquiz-aaa11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966276468722:android:f10f04d5e144d8e408256b",
+        "android_client_info": {
+          "package_name": "com.codewithharry.prepquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966276468722-2im59sc42bv6tvrpbmro7kfmd9vpej0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithharry.prepquiz",
+            "certificate_hash": "2464bc86a5f0257c331d6c481fe602b293983077"
+          }
+        },
+        {
+          "client_id": "966276468722-1d655v2i27voq6ivpnaomc93e8vkr3fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf9-zAPPcW2DjbZuqamxKFy5S02Ft-DXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966276468722-1d655v2i27voq6ivpnaomc93e8vkr3fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

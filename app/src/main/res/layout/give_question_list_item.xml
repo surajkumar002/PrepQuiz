@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/give_question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Q. Who is the Prime Minister of United Kingdom ?"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#26004d"
+        android:background="#ffe6f0"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_a_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Narendra Modi"
+            android:textColor="#cc0052"
+            android:background="#ffe6f0"/>
+
+        <RadioButton
+            android:id="@+id/option_b_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Boris Johnson"
+            android:textColor="#cc0052"
+            android:background="#ffe6f0"/>
+
+
+        <RadioButton
+            android:id="@+id/option_c_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Joe Biden"
+            android:textColor="#cc0052"
+            android:background="#ffe6f0"/>
+
+
+        <RadioButton
+            android:id="@+id/option_d_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Scott Morrison"
+            android:textColor="#cc0052"
+            android:background="#ffe6f0"/>
+
+    </RadioGroup>
+
+</LinearLayout>
